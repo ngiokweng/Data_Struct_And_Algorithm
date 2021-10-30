@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "圖", "圖\圖.vcxproj", "{B61AF09B-3A37-4428-A769-E799C4F8647E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Debug|x64.ActiveCfg = Debug|x64
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Debug|x64.Build.0 = Debug|x64
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Debug|x86.ActiveCfg = Debug|Win32
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Debug|x86.Build.0 = Debug|Win32
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Release|x64.ActiveCfg = Release|x64
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Release|x64.Build.0 = Release|x64
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Release|x86.ActiveCfg = Release|Win32
+		{B61AF09B-3A37-4428-A769-E799C4F8647E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684700A1-AC94-434C-83EF-D81DBBF4F8DF}
+	EndGlobalSection
+EndGlobal

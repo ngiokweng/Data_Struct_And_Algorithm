@@ -1,0 +1,4 @@
+baa	bbaabbba	YES
+baa	aaabbbba	YES
+aabb	abceaabb	YES
+aabb	abaabcea	YES

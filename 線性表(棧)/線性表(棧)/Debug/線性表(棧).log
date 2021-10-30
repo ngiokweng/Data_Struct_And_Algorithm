@@ -1,0 +1,6 @@
+﻿  案例(四則運算).cpp
+C:\Users\user\Desktop\A\數據結構與算法\線性表(棧)\線性表(棧)\案例(四則運算).cpp(10,1): warning C4005: 'OVERFLOW': 巨集重複定義
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(965): message : 請參閱 'OVERFLOW' 之前的定義
+C:\Users\user\Desktop\A\數據結構與算法\線性表(棧)\線性表(棧)\案例(四則運算).cpp(78,21): warning C4018: '<': signed/unsigned 不相符
+C:\Users\user\Desktop\A\數據結構與算法\線性表(棧)\線性表(棧)\案例(四則運算).cpp(160,20): warning C4018: '<': signed/unsigned 不相符
+  線性表(棧).vcxproj -> C:\Users\user\Desktop\A\數據結構與算法\線性表(棧)\Debug\線性表(棧).exe
