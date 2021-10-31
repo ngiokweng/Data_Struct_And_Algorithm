@@ -27,5 +27,8 @@
     <ClCompile Include="DFS遍歷(鄰接表).cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="BFS遍歷(鄰接表).cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
