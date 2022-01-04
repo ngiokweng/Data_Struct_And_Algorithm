@@ -27,5 +27,43 @@ LinkList Connect(LinkList Ta, LinkList Tb) {  //Ta是鏈表a的尾指針，Tb同理
 	
 	return Tb;
 }
+//創建循環鏈表
+void Create(LinkList& L,int n) {
+	LinkList p = NULL;
+	for (int i = 1; i <= n; i++) {
+		if (!L) {
+			L = new LNode;
+			cin >> L->data;
+			L->next = NULL;
+			p = L;
+			continue;
+		}
 
-int main() {}
+		LinkList q = new LNode;
+		cin >> q->data;
+		if (i != n)
+			q->next = NULL;
+		else
+			q->next = L;
+		p->next = q;
+		p = p->next;
+	}
+}
+
+//遍歷循環鏈表
+void PrintAll(LinkList L) {
+	if (!L)return;
+	LinkList head = L;
+	while (L->next!=head) {
+		cout << L->data << " ";
+		L = L->next;
+	}
+	cout << L->data << endl;
+}
+
+int main() {
+	LinkList L = NULL;
+	Create(L, 5);
+	PrintAll(L);
+	return 0;
+}
