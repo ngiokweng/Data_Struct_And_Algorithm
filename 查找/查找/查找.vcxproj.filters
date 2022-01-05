@@ -21,5 +21,8 @@
     <ClCompile Include="二分查找法.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="二叉排序樹的查找.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

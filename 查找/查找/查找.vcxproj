@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="二分查找法.cpp" />
+    <ClCompile Include="二叉排序樹的查找.cpp" />
     <ClCompile Include="順序查找算法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
