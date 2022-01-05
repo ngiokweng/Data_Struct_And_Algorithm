@@ -18,5 +18,8 @@
     <ClCompile Include="順序查找算法.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="二分查找法.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
