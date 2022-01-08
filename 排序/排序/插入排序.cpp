@@ -31,6 +31,24 @@ void InsertSort(SqList& L) {
 	}
 }
 
+//插入排序2：二分插入排序(基於二分查找)
+void InsertSort2(SqList& L) {
+	int i, j;
+	for (i = 2; i <= L.length; i++) {
+		L.r[0] = L.r[i];  //將當前插入元素存在"哨兵"
+		int first = 1, last = i - 1,mid;
+		while (first <= last) {
+			mid = (first + last) / 2;
+			if (L.r[0].key > L.r[mid].key)
+				first = mid + 1;
+			else
+				last = mid - 1;
+		}//循環結束時，last + 1為【插入位置】
+		for (j = i - 1; j >= last + 1; j--)L.r[j + 1] = L.r[j];
+		L.r[last + 1] = L.r[0];  //插入到正確位置
+	}
+}
+
 int main() {
 	return 0;
 }
