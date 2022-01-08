@@ -63,7 +63,6 @@ void ShellInsert(SqList& L, int dk) {
 
 	}
 }
-
 void ShellSort(SqList& L, int dlta[], int t) {
 	//按增量序列dlta[0..t-1]對順序表L作希爾排序
 	for (int k = 0; k < t; k++)
