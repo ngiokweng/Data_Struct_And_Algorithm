@@ -49,6 +49,27 @@ void InsertSort2(SqList& L) {
 	}
 }
 
+/*插入排序3：希爾排序*/
+void ShellInsert(SqList& L, int dk) {
+	//對順序表L進行一趟增量為dk的Shell排序，dk為步長因子
+	int i, j;
+	for (i = dk + 1; i <= L.length; i++) {
+		if (L.r[i].key < L.r[i - dk].key) {
+			L.r[0] = L.r[i - dk];
+			for (j = i - dk; j > 0 && (L.r[0].key < L.r[j].key); j = j - dk)
+				L.r[j + dk] = L.r[j];
+			L.r[j + dk] = L.r[0];
+		}
+
+	}
+}
+
+void ShellSort(SqList& L, int dlta[], int t) {
+	//按增量序列dlta[0..t-1]對順序表L作希爾排序
+	for (int k = 0; k < t; k++)
+		ShellInsert(L, dlta[k]);
+}
+
 int main() {
 	return 0;
 }
